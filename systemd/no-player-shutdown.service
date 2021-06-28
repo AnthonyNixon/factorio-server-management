@@ -1,0 +1,5 @@
+[Unit]
+Description=No Players present shutdown job
+[Service]
+Type=oneshot
+ExecStart=/bin/bash /usr/local/bin/check-players.sh

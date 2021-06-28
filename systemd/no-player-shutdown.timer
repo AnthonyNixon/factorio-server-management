@@ -1,0 +1,7 @@
+[Unit]
+Description=timer for No Players Shutdown Script running every 5 minutes
+[Timer]
+OnUnitActiveSec=300s
+OnBootSec=300s
+[Install]
+WantedBy=timers.target
